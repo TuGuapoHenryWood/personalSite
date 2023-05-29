@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('lux.jpg');
+    background-size: 500px;
+}
+
+p{
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+div{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.763);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 241, 223);
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 75%;
+    text-align: center;
+    border: solid blanchedalmond 1px;
+    border-radius: 2px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    margin: auto;
+    font-size: 100px;
+}
+
+button{
+    font-family:Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    background-color: transparent;
+    border: solid 2px blanchedalmond;
+    font-weight: bolder;
+    width: 300px;
+    height: 75%;
+    margin: auto;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgba(255, 235, 205, 0.225);
+    border: solid 4px blanchedalmond;
+    color: whitesmoke;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: blanchedalmond;
+    border: none;
+    color: black;
+    transition-duration: 0s;
+}
+
+.img{
+    border-radius: 50%;
+    border: solid blanchedalmond 4px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-left: 10px;
+    background-image: url('me.jpg');
+    background-size: 320px;
+}
+
+.nav{
+    height: 70px;
+    justify-content: space-evenly;
+    width: 90%;
+    padding-top: 30px;
+}
+
+.intro{
+    height: 500px;
+    width: 95%;
+    background-image: url('aqp.jpg');
+    background-size: 1500px;
+}
+
+.c{
+    height: 550px;
+    flex-direction: column;
+}
+
+.y{
+    flex-direction: row;
+    height: 400px;
+}
+
+.a{
+    flex-direction: row;
+    height: 50%;
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+.i{
+    width: 45%;
+    height: 70%;
+    margin: auto;
+}
+
+.l{
+    height: 80%;
+    width: 30%;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    padding-top: 0px;
+}
+
+.links{
+    height: 500px;
+    text-align: center;
+    flex-direction: row;
+}
+
+li{
+    margin-bottom: 50px;
+    text-align: start;
+    font-size: 14px;
+}
+
+.an{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 0;
+    margin: 20px;
+}
